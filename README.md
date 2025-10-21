@@ -16,12 +16,6 @@ It consists of several sections:
 - Tailwind CSS  
 - JavaScript  
 
-## 🖼️ Screenshot
-[img/](img/home.png) → hasil dari web.
-[img/](img/about me.png)
-[img/](img/services.png)
-[img/](img/hire me.png)
-
 
 ## 🎥 YouTube Presentation
 📺 Watch the full presentation video here:  
@@ -40,6 +34,7 @@ It consists of several sections:
 ## 👩‍💻 Author
 **Aurellia Inez Naidabilah**  
 _(Graphic Designer & Administrative Assistant)_
+
 
 
 
