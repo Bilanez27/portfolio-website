@@ -24,7 +24,7 @@ It consists of several sections:
 
 ## 📁 Files in This Project
 
-- [webport.html](webport baru.html) → Struktur utama halaman website.  
+- [webport.html](webportbaru.html) → Struktur utama halaman website.  
 - [stylee.css](stylee.css) → Mengatur tampilan dan layout website.  
 - [webport.js](webport.js) → Efek interaktif dan animasi teks.  
 - Folder [img/](img/dg.jpg) 
@@ -34,6 +34,7 @@ It consists of several sections:
 ## 👩‍💻 Author
 **Aurellia Inez Naidabilah**  
 _(Graphic Designer & Administrative Assistant)_
+
 
 
 
