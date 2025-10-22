@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aurellia Inez - Portfolio</title>
+
+  <!--Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="stylee.css" />
+</head>
+
+<body class="bg-[#14070d] text-white font-poppins">
+
+  <!-- NAVBAR -->
+  <header class="navbar flex justify-between items-center px-20 py-4 bg-[#1a0b11] shadow-md">
+    <div class="logo bg-pink-300 text-[#1a0b11] font-bold text-lg px-4 py-2 rounded-xl">AIN</div>
+    <nav class="space-x-6">
+      <a href="#home" class="text-pink-300 hover:text-pink-400 font-semibold">Home</a>
+      <a href="#about" class="text-pink-300 hover:text-pink-400 font-semibold">About</a>
+      <a href="#services" class="text-pink-300 hover:text-pink-400 font-semibold">Services</a>
+      <a href="#hire" class="text-pink-300 hover:text-pink-400 font-semibold">Hire Me</a>
+    </nav>
+  </header>
+
+  <!-- HOME -->
+  <section class="hero-section" id="home">
+    <div class="hero-text popup-glow">
+      <h1>Hi, I'm <span id="typing-text"></span><span class="cursor">|</span></h1>
+      <h2>Graphic Designer & Administrative Professional 💻🎀</h2>
+      <p>Creating soft, elegant, and well-organized designs that blend creativity with professionalism.</p>
+
+      <div class="buttons">
+        <a href="#services" class="btn primary popup-glow">See My Work</a>
+        <a href="#hire" class="btn secondary popup-glow">Hire Me</a>
+      </div>
+
+      <div class="social-links">
+        <a href="https://www.instagram.com/iinezanh" target="_blank" class="popup-glow"> Instagram</a>
+        <a href="https://linkedin.com/" target="_blank" class="popup-glow"> LinkedIn</a>
+        <a href="https://twitter.com/" target="_blank" class="popup-glow"> Twitter</a>
+      </div>
+    </div>
+
+    <div class="hero-image popup-glow">
+      <img src="img/img profile.jpg" alt="Aurellia Inez" />
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about-section" id="about">
+    <h2 class="section-title"><b>About Me</b></h2>
+    <p class="section-desc">
+      I'm <strong>Aurellia Inez Naidabilah</strong>, a creative Graphic Designer & Administrative Professional who loves bringing elegance and clarity into every visual work.
+      With a background in design and secretarial work, I combine aesthetic sense with organization and attention to detail to create clean, modern, and meaningful designs.
+      I’m passionate about crafting visuals that express warmth, professionalism, and creativity.
+    </p>
+  </section>
+
+  <!-- SERVICES -->
+ <section class="services-section" id="services">
+  <h2 class="section-title">My Services</h2>
+  <p class="section-desc text-pink-200">
+    Here are the services I offer — combining creativity, design, and organization skills.
+  </p>
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10 px-10 text-center">
+
+    <div class="bg-[#221018] rounded-2xl p-6 shadow-md hover:scale-105 transition transform">
+      <img src="img/dg.jpg" alt="Graphic Design" class="service-img">
+      <h3 class="text-pink-300 font-semibold text-xl mt-4 mb-2"> Graphic Design</h3>
+      <p class="text-white text-sm">
+        Designing clean and elegant visual content such as posters, social media graphics, and promotional materials that effectively communicate ideas and brand identity.
+      </p>
+    </div>
+
+    <div class="bg-[#221018] rounded-2xl p-6 shadow-md hover:scale-105 transition transform">
+      <img src="img/admin.png" alt="Administrative Support" class="service-img">
+      <h3 class="text-pink-300 font-semibold text-xl mt-4 mb-2"> Administrative Support</h3>
+      <p class="text-white text-sm">
+        Providing professional assistance in organizing schedules, handling correspondence, and managing documents with attention to detail and efficiency.
+      </p>
+    </div>
+
+    <div class="bg-[#221018] rounded-2xl p-6 shadow-md hover:scale-105 transition transform">
+      <img src="img/branding.png" alt="Branding & Visual Identity" class="service-img">
+      <h3 class="text-pink-300 font-semibold text-xl mt-4 mb-2"> Branding & Visual Identity</h3>
+      <p class="text-white text-sm">
+        Creating cohesive brand visuals — from logo concepts to consistent design styles — that reflect clarity, professionalism, and creativity.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+
+  <!-- HIRE ME -->
+  <section class="hire-section" id="hire">
+    <h2 class="section-title"><b>Hire Me 💌</b></h2>
+    <p class="section-desc text-pink-200">Interested in working together? Let’s create something meaningful. Fill out the form below to contact me.</p>
+
+    <form id="hireForm" class="max-w-md mx-auto flex flex-col gap-3 mt-8">
+      <input type="text" id="name" placeholder="Your Name" class="p-3 rounded-lg border-none focus:ring-2 focus:ring-pink-400 outline-none" required />
+      <input type="email" id="email" placeholder="Your Email" class="p-3 rounded-lg border-none focus:ring-2 focus:ring-pink-400 outline-none" required />
+      <textarea id="message" placeholder="Tell me your project idea..." class="p-3 rounded-lg border-none focus:ring-2 focus:ring-pink-400 outline-none" required></textarea>
+      <button type="submit" class="bg-pink-300 text-[#1a0b11] font-semibold py-2 px-5 rounded-lg hover:bg-pink-400 transition">Send Message</button>
+    </form>
+
+    <p id="notif" class="notif"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Aurellia Inez Naidabilah | Designed with love.</p>
+  </footer>
+
+  <script src="webport.js"></script>
+</body>
+</html>
+
